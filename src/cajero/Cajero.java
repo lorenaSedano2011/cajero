@@ -26,7 +26,7 @@ public class Cajero {
         int nuevaclave = 3;
         int confirmarclave;
         Scanner teclado = new Scanner(System.in);
-
+//siempre debe ir la clase para declarar las variables
         while (true) {
             System.out.println("1.retiro con tarjeta\n2.cambio de clave\n3.salir");//un prompt se usa para mostrar un dialogo que solicita el usario para introducir un texto//
             menu = teclado.nextInt();
